@@ -1,0 +1,13 @@
+@include media-breakpoint-up(lg) {
+    .main-nav {
+        &__link {
+            border-bottom: none;
+        }
+    }
+    .main-header {
+        &__logo {
+            height:29px;
+            margin: 20px 0;
+        }
+    }
+}

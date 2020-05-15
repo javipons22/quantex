@@ -1,0 +1,77 @@
+// CLASES GENERALES
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+// HEADER
+
+.header-container {
+    position:fixed;
+    width:100%;
+    background:#fefefe;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: -1px 11px 8px -6px rgba(0,0,0,0.11);
+    -moz-box-shadow: -1px 11px 8px -6px rgba(0,0,0,0.11);
+    box-shadow: -1px 11px 8px -6px rgba(0,0,0,0.11);
+    align-items: center;
+    // display:flex;
+    // align-items: center;
+    // justify-content: center;
+}
+
+.main-header {
+    position:relative;
+    z-index:100;
+    margin:0 auto;
+    overflow:hidden;
+    &__logo {
+        height:26px;
+        margin: 10px 0;
+    }
+    &__button:active,&__button:focus,&__button:hover {
+        outline:none;
+    }
+}
+
+.main-nav {
+    &__link {
+        font-size:0.9em;
+        font-weight:bold;
+        display:block;
+        color:$color-menu-item;
+        width:100%;
+        height:100%;
+        padding: 15px 0;
+        border-bottom: 1px solid $gris;
+        line-height:100%;
+    }
+    &__link:active,&__link:hover {
+        text-decoration:none;
+        color:black;
+    }
+}
+
+.social-nav {
+    &__element {
+        font-size:0.9em; 
+    }
+    &__link {
+        color:$color-menu-item;
+        font-weight:bold;
+        &--last {
+            padding: 7px 8px;
+            background:$verde-marca;
+            color:white;
+            border-radius:7px;
+        }
+    }
+    &__link:active,&__link:hover {
+        text-decoration:none;
+        color: black;
+    }
+    &__link--last:active, &__link--last:hover {
+        color:white;
+    }
+}
