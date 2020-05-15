@@ -10,4 +10,36 @@
             margin: 20px 0;
         }
     }
+    .banner {
+        height:100vh;
+        &__contenedor {
+            height:100vh;
+        }
+        &__info-principal {
+            .banner__titulo {
+                font-size:2.5em;
+                margin-bottom: 55px;
+                span {
+                    // pasar "los grandes jugadores" a la segunda linea
+                    display:block;
+                }
+            }
+            .banner__texto {
+                margin-bottom: 55px;
+                margin-top:0;
+            }
+            .banner__cta {
+                font-size:1em;
+            }
+            .banner__cta:hover {
+                background:white;
+                color:$verde-marca;
+            }
+        }
+        &__imagen {
+            width:100%;
+            max-height:460px;
+        }
+    }
+    
 }

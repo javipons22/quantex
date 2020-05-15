@@ -2,6 +2,8 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
+    background: #F9F9F9;
+    overflow-x: hidden;
 }
 
 
@@ -16,6 +18,7 @@ body {
     -moz-box-shadow: -1px 11px 8px -6px rgba(0,0,0,0.11);
     box-shadow: -1px 11px 8px -6px rgba(0,0,0,0.11);
     align-items: center;
+    z-index:100;
     // display:flex;
     // align-items: center;
     // justify-content: center;
@@ -23,7 +26,6 @@ body {
 
 .main-header {
     position:relative;
-    z-index:100;
     margin:0 auto;
     overflow:hidden;
     &__logo {
@@ -74,4 +76,87 @@ body {
     &__link--last:active, &__link--last:hover {
         color:white;
     }
+}
+
+// BANNER
+
+.banner {
+    height:80vh;
+    width:100vw;
+    position:relative;
+    overflow: hidden;
+    &__contenedor {
+        overflow:hidden;
+        object-fit:cover;
+        position:relative;
+        height:80vh;
+        width:100%;
+        z-index: 1;
+    }
+    &__imagen-fondo {
+        max-width:100%;
+        min-height:100%;
+        object-fit:cover;
+        z-index:1;
+        position:fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index:-1;
+    }
+    &__gradiente {
+        position:absolute;
+        height:100%;
+        width:100%;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background: rgb(17,153,180);
+        background: linear-gradient(90deg, rgba(17,153,180,0.65) 0%, rgba(0,193,139,0.65) 100%);
+    }
+    &__decoracion {
+        position:absolute;
+        bottom:-5px;
+        right: 0;
+        left: 0;
+        width:100%;
+        z-index:10;
+    }
+    &__info-principal {
+        position:relative;
+        height:100%;
+        width:100%;
+        z-index:100;
+        color:white;
+        .banner__titulo {
+            font-size:1.8em;
+            font-weight:700;
+        }
+        .banner__texto {
+            font-size:1em;
+            margin: 20px 0;
+        }
+        .banner__cta {
+            display:inline-block;
+            text-align: center;
+            font-size: 1em;
+            border:1.5px solid white;
+            padding:7px 25px;
+            margin-top:10px;
+            color:white;
+            text-decoration:none;
+            border-radius:7px;
+        }
+    }
+}
+
+.temp {
+    height:5000px;
+    width: 100%;
+    background-color: #F9F9F9;
+    position: relative;
+    z-index:10;
 }

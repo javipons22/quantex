@@ -1,0 +1,14 @@
+@include media-breakpoint-up(md) {
+    .banner {
+        height:90vh;
+        &__contenedor {
+            height:90vh;
+        }
+        &__info-principal {
+            font-size:1.2em;
+            .banner__cta { 
+                font-size:0.8em;
+            }
+        }
+    }
+}
