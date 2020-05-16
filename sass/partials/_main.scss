@@ -156,7 +156,7 @@ body {
 // SECCION 1
 
 .seccion-1 {
-    padding: 75px 0;
+    padding: 75px 0 50px 0;
     width: 100%;
     background-color: #F9F9F9;
     position: relative;
@@ -191,3 +191,47 @@ body {
         }
     }
 }
+
+// SECCION 2
+
+.seccion-2 {
+    padding:25px 0 75px 0;
+    width: 100%;
+    background-color: #F9F9F9;
+    position: relative;
+    z-index:10;
+}
+
+.texto-seccion-2 {
+    width:100%;
+    padding:30px;
+    position:relative;
+    border:0;
+    &__subtitulo {
+        display:inline-block;
+        font-size:0.8em;
+        margin-bottom:2px;
+        text-align: center;
+    }
+    &__titulo {
+        display:inline-block;
+        font-size: 1.2em;
+        font-weight:700;
+        text-align: center;
+    }
+    .triangulo-1 {
+        position:absolute;
+        top:0;
+        left:0;
+        z-index: -1;
+        max-height:50px;
+    }
+    .triangulo-2 {
+        position:absolute;
+        bottom:0;
+        right:0;
+        z-index: -1;
+        max-height:50px;
+    }
+}
+

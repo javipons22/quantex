@@ -74,5 +74,32 @@
         right:0;
         z-index: -1;
     }
+
+    .texto-seccion-2 {
+        flex-basis:100%;
+        font-size:1.3em;
+        &__titulo {
+            font-size:1.5em;
+            span {
+                display: block;
+            }
+        }
+        &__subtitulo {
+            border:none;
+            font-size:0.7em;
+        }
+    }
+
+    .triangulo-1-lg {
+        position:absolute;
+        bottom:0;
+        left:0;
+    }
+    .triangulo-2-lg {
+        position:absolute;
+        top:0;
+        right:0;
+        max-height:130px;
+    }
     
 }

@@ -18,4 +18,10 @@
         border-right: 1px solid $gris;
         border-bottom: 1px solid $gris;
     }
+
+    .texto-seccion-2 {
+        &__titulo {
+            font-size:1.5em;
+        }
+    }
 }
