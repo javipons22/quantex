@@ -41,5 +41,38 @@
             max-height:460px;
         }
     }
+
+    .imagen-seccion {
+        width:100%;
+        max-height:500px;
+        padding:75px;
+    }
+    .texto-seccion {
+        border:none;
+        font-size:1.3em;
+        padding:75px 0 75px 75px;
+        &__subtitulo {
+            font-size:0.7em;
+            padding: 12px 20px;
+            border: 1px solid $gris;
+            border-radius:7px;
+            margin-bottom: 12px;
+        }
+    }
+    .contenedor-imagen-seccion {
+        display:relative;
+    }
+    .triangulo-1 {
+        position:absolute;
+        top:0;
+        left:0;
+        z-index: -1;
+    }
+    .triangulo-2 {
+        position:absolute;
+        bottom:0;
+        right:0;
+        z-index: -1;
+    }
     
 }

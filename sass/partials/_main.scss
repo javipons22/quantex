@@ -153,10 +153,41 @@ body {
     }
 }
 
-.temp {
-    height:5000px;
+// SECCION 1
+
+.seccion-1 {
+    padding: 75px 0;
     width: 100%;
     background-color: #F9F9F9;
     position: relative;
     z-index:10;
+}
+
+.imagen-seccion {
+    width:100%;
+    max-height:350px;
+}
+
+.texto-seccion {
+    padding: 26px 15px;
+    border-left: 1px solid $gris;
+    border-right: 1px solid $gris;
+    border-bottom: 1px solid $gris;
+    &__subtitulo {
+        font-size:0.8em;
+        margin-bottom:2px;
+    }
+    &__titulo {
+        font-size:1.5em;
+        font-weight:700;
+    }
+    &__parrafo {
+        padding-top:15px;
+        margin-bottom:0;
+        font-size:0.8em;
+        color:#666;
+        strong {
+            color:black;
+        }
+    }
 }
