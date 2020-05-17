@@ -10312,6 +10312,15 @@ body {
     background: #66BDED;
     border-radius: 7px;
   }
+
+  #particles-js {
+    position: absolute;
+    z-index: 11;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
 .menu-wrapper {
   height: 11px;

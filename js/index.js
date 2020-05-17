@@ -7,3 +7,8 @@ jQuery(document).ready(function($){
         //$('nav').animate({width:'toggle'},350);
     });
 });
+
+
+particlesJS.load('particles-js', './js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+});
