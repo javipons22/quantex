@@ -127,5 +127,17 @@
         left: 0;
         right: 0;
     }
+    .footer {
+        font-size:1.1em;
+        &__image-container {
+            height:220px;
+        }
+        &__copyright {
+            font-size:0.7em;
+        }
+    }
+    .seccion-3 {
+        padding-bottom:150px;
+    }
     
 }
