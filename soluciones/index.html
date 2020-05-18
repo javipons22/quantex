@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantex</title>
+    <title>Quantex | Soluciones</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header class="header-container">
         <div class="main-header container">
             <div class="row justify-content-between align-items-stretch d-lg-flex flex-lg-nowrap">
                 <div class="col d-flex align-items-center pr-lg-0">
-                    <img class="main-header__logo" src="img/logo.svg" alt="logo Quantex">
+                    <img class="main-header__logo" src="../img/logo.svg" alt="logo Quantex">
                 </div>
                 <div class="col-3 d-flex d-lg-none main-header__menu-icon justify-content-end">
                     <button class="main-header__button p-2">
@@ -25,7 +25,7 @@
                 </div>
                 <nav class="main-nav col-12 col-lg-6 d-lg-flex align-items-center mt-3 mb-5 mb-lg-0 mt-lg-0 pl-lg-3 pl-xl-0">
                     <ul class="list-unstyled d-lg-flex mb-0 align-items-center">
-                        <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link" href="./soluciones">Soluciones</a></li>
+                        <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link" href="#">Soluciones</a></li>
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link" href="#">Tecnología</a></li>
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link" href="#">Empresa</a></li>
                     </ul>
@@ -39,69 +39,65 @@
         </div>
     </header>
     <main>
-        <section class="banner">
-            <div class="banner__contenedor">
-                <img class="banner__imagen-fondo d-none d-sm-inline-block" src="img/bannerbackground-min.png" alt="fondo banner">
-                <div class="banner__gradiente"></div>
-                <img class="banner__decoracion" src="img/banner.svg" alt="decoracion banner">
-                <div id="particles-js" class="d-none d-lg-inline-block"></div>
-                <div class="banner__info-principal container d-flex align-items-center">
-                    <div class="row d-flex align-items-center">
-                        <div class="banner__texto-contenedor col-12 col-lg-7">
-                            <h1 class="banner__titulo">Donde se reúnen <span>los grandes jugadores"</span></h1>
-                            <p class="banner__texto"><strong>Quantex</strong> desarrolla e implementa tecnología financiera de vanguardia para mercados Over-The-Counter.</p>
-                            <a href="#" class="banner__cta">Solicitar una demo</a>
-                        </div>
-                        <div class="banner__contenedor-imagen col-lg-5 d-none d-lg-inline-block">
-                            <img class="banner__imagen" src="img/screen-min.png" alt="pantalla quantex">
-                        </div>
+        <section class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="page-header__titulo">Soluciones</h1>
                     </div>
                 </div>
             </div>
-            
         </section>
-        <section class="seccion-1">
+        <section class="seccion-principal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 texto-seccion d-lg-flex flex-column">
+                        <h4 class="texto-seccion__titulo">Soluciones de liquidez y manejo de riesgo</h4>
+                        <p class="texto-seccion__parrafo">La naturaleza misma del mercado OTC hace que los operadores no accedan al universo completo de liquidez. <br><br>El objetivo principal de Quantex es mejorar la calidad de ejecución y liquidez mediante tecnología financiera de vanguardia creando así un mercado de capitales más eficiente y menos riesgoso.</p>
+                    </div>
+                    <img src="../img/triangulo1.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block">
+                </div>
+            </div>
+        </section>
+        <section class="seccion-1 seccion-1-soluciones">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-10 col-md-6 contenedor-imagen-seccion px-0">
-                        <img src="img/triangulo2.svg" alt="triangulo 1" class="triangulo-1 d-none d-lg-inline-block">
-                        <img class="imagen-seccion" src="img/macbook-min.jpg" alt="macbook">
-                        <img src="img/triangulo1.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block">
+                        <img src="../img/triangulo2.svg" alt="triangulo 1" class="triangulo-1 d-none d-lg-inline-block">
+                        <img class="imagen-seccion" src="../img/personlaptop.jpg" alt="macbook">
+                        <img src="../img/triangulo1.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block">
                     </div>
                     <div class="col-10 col-md-6 texto-seccion d-lg-flex flex-column justify-content-lg-center">
-                        <h6 class="texto-seccion__subtitulo">Bienvenido al mayor pool de liquidez OTC de Latinoamérica.</h6>
-                        <h4 class="texto-seccion__titulo">Acceso directo al universo OTC de renta fija.</h4>
-                        <p class="texto-seccion__parrafo">Quantex conecta a la comunidad de operadores de renta fija de Latam mediante un <strong>sofisticado y flexible</strong> sistema de liquidez. </p>
+                        <h4 class="texto-seccion__titulo">Para operadores.</h4>
+                        <p class="texto-seccion__parrafo">Miles de operadores siguen utilizando los canales tradicionales para realizar operaciones de renta fija. Los servicios de Quantex están orientados a reducir los costos de ejecución.</p>
+                        <ul class="row soluciones-lista mb-0 d-flex justify-content-between">
+                            <li class="py-2 mb-2 soluciones-lista__elemento">Pool de Liquidez</li>
+                            <li class="py-2 mb-2 soluciones-lista__elemento">Book Multimercado</li>
+                            <li class="py-2 mb-2 soluciones-lista__elemento">Productos Sintéticos</li>
+                            <li class="py-2 mb-2 soluciones-lista__elemento">API's</li>
+                            <li class="py-2 mb-2 soluciones-lista__elemento">Algoritmos</li>
+                            <li class="py-2 mb-2 soluciones-lista__elemento">Ordenes Flash</li>
+                            <li class="py-2 mb-0 soluciones-lista__elemento soluciones-lista__elemento--last">Registro automático en todos los mercados</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="seccion-2">
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-10 texto-seccion-2 d-flex flex-column my-lg-5">
-                        <img src="img/triangulo2.svg" alt="triangulo 1" class="triangulo-1 d-inline-block d-lg-none">
-                        <img src="img/triangulo1.svg" alt="triangulo 2" class="triangulo-2 d-inline-block d-lg-none">
-                        <img src="img/triangulo3.svg" alt="triangulo 1" class="triangulo-1-lg d-none d-lg-inline-block">
-                        <img src="img/triangulo4.svg" alt="triangulo 2" class="triangulo-2-lg d-none d-lg-inline-block">
-                        <h6 class="texto-seccion-2__subtitulo">Bonos corporativos y soberanos.</h6>
-                        <h4 class="texto-seccion-2__titulo">Nuestro DarkPool conecta a más de <span>200 mesas de dinero.</span></h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="seccion-1 seccion-3">
+        <section class="seccion-1 seccion-3 seccion-3-soluciones">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-10 col-md-6 contenedor-imagen-seccion px-0 order-lg-2">
-                        <img class="imagen-seccion" src="img/planning-min.jpg" alt="macbook">
-                        <img src="img/triangulo6.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block">
+                        <img class="imagen-seccion" src="../img/risk.jpg" alt="macbook">
+                        <img src="../img/triangulo6.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block">
                     </div>
                     <div class="col-10 col-md-6 texto-seccion d-lg-flex flex-column justify-content-lg-center order-lg-1">
-                        <h6 class="texto-seccion__subtitulo">Soluciones prácticas a problemas específicos.</h6>
-                        <h4 class="texto-seccion__titulo">Tus problemas de ejecución  y riesgo resueltos con estilo.</h4>
-                        <p class="texto-seccion__parrafo">Nuestras <strong>soluciones</strong> de Analytics integradas con sofisticados algoritmos de ejecución desarrollados por nuestros propios clientes.</p>
-                        <a href="#" class="texto-seccion__cta">ver soluciones</a>
+                        <h4 class="texto-seccion__titulo">Para control de riesgo.</h4>
+                        <p class="texto-seccion__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <ul class="row soluciones-lista mb-0 d-flex justify-content-between">
+                            <li class="py-2 mb-2 soluciones-lista__elemento soluciones-lista__elemento--impar">Risk Manager</li>
+                            <li class="py-2 mb-2 soluciones-lista__elemento soluciones-lista__elemento--par">Estadisticas en tiempo real</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -110,13 +106,13 @@
     <footer class="footer">
         <div class="footer__image-container">
             <div class="footer__gradiente"></div>
-            <img class="footer__imagen" src="img/water.jpg" alt="imagen lago">
+            <img class="footer__imagen" src="../img/water.jpg" alt="imagen lago">
         </div>
         <div class="footer__contenido">
             <div class="container">
                 <div class="row d-flex justify-content-center justify-content-md-between">
                     <div class="col-11 col-md-4 col-lg-5 footer__logo-container">
-                        <img src="img/logoblanco.svg" class="footer__logo">
+                        <img src="../img/logoblanco.svg" class="footer__logo">
                     </div>
                     <div class="col-11 col-md-8 col-lg-7 footer__info-container">
                         <div class="row d-flex justify-content-end justify-content-md-between">
@@ -153,7 +149,7 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/index.js"></script>
+    <script src="../js/particles.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 </html>

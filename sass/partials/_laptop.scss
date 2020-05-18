@@ -139,5 +139,41 @@
     .seccion-3 {
         padding-bottom:150px;
     }
-    
+    .page-header {
+        padding-top:70px;
+        font-size: 1.2em;
+    }
+    .seccion-principal {
+        .row {
+            position:relative;
+            padding: 0 15px;
+        }
+        .triangulo-2 {
+            right: 15px;
+        }
+        .texto-seccion {
+            padding-left:0;
+            padding-right:0;
+            padding-top: 110px;
+            &__titulo {
+                padding:0;
+                font-size:1.8em;
+            }
+            &__parrafo {
+                max-width:65%;
+            }
+        }
+    }
+    .seccion-1-soluciones {
+        padding-top:110px;
+        .texto-seccion {
+
+            padding:0;
+            padding-left: 75px;
+        }
+    }
+    .seccion-3-soluciones {
+        padding-top:25px;
+        padding-bottom: 100px;
+    }
 }
