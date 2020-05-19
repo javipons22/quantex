@@ -6,6 +6,7 @@ jQuery(document).ready(function($){
         //$('nav').slideToggle();
         //$('nav').animate({width:'toggle'},350);
     });
+    //$('.fondo').css('height',10 + 'px');
 });
 
 
