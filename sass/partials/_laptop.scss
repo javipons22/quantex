@@ -1,4 +1,4 @@
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
     .main-nav {
         &__link {
             border-bottom: none;
@@ -45,18 +45,20 @@
     .imagen-seccion {
         width:100%;
         max-height:500px;
-        padding:75px;
+        padding:20px;
     }
     .texto-seccion {
         border:none;
-        font-size:1.3em;
+        font-size:1.4em;
         padding:75px 0 75px 75px;
         &__subtitulo {
-            font-size:0.7em;
-            padding: 12px 20px;
-            border: 1px solid $gris;
-            border-radius:7px;
+            font-size:0.9em;
+            padding: 12px 0 12px 0;
+            border-bottom: 1px solid $gris;
             margin-bottom: 12px;
+        }
+        &__parrafo {
+            font-size:0.8em;
         }
     }
     .contenedor-imagen-seccion {
@@ -77,7 +79,7 @@
 
     .texto-seccion-2 {
         flex-basis:100%;
-        font-size:1.3em;
+        font-size:1.5em;
         &__titulo {
             font-size:1.5em;
             span {
@@ -86,7 +88,7 @@
         }
         &__subtitulo {
             border:none;
-            font-size:0.7em;
+            font-size:1em;
         }
     }
 
@@ -102,35 +104,30 @@
         max-height:130px;
     }
     .seccion-3 {
+        padding-top:55px;
+        padding-bottom:55px;
         .texto-seccion {
             padding: 0 75px 0 0;
             &__cta {
                 display:inline-block;
-                font-size:0.8em;
+                width:40%;
+                font-size:0.7em;
                 position:relative;
                 text-decoration:none;
                 text-align:center;
                 padding: 10px 0;
                 color:white;
                 font-weight:bold;
-                background:#66BDED;
+                background:$verde-marca;
                 border-radius: 7px;
             }
         }
             
     }
-    #particles-js {
-        position:absolute;
-        z-index:11;
-        top:0;
-        bottom:0;
-        left: 0;
-        right: 0;
-    }
     .footer {
         font-size:1.1em;
         &__image-container {
-            height:220px;
+            height:30px;
         }
         &__copyright {
             font-size:0.7em;
@@ -173,7 +170,10 @@
         }
     }
     .seccion-3-soluciones {
-        padding-top:25px;
-        padding-bottom: 100px;
+        padding-top:60px;
+        padding-bottom: 150px;
+    }
+    .soluciones-lista {
+        font-size:0.8em;
     }
 }

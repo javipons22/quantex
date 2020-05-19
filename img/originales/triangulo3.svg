@@ -4,5 +4,9 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="234.609px" height="112.992px" viewBox="0 0 234.609 112.992" enable-background="new 0 0 234.609 112.992"
 	 xml:space="preserve">
-<polygon opacity="0.6" fill="#007A8E" enable-background="new    " points="0,0 234.609,112.904 0,112.992 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="56.4961" x2="234.6094" y2="56.4961">
+	<stop  offset="0" style="stop-color:#008FF2"/>
+	<stop  offset="1" style="stop-color:#00A99D"/>
+</linearGradient>
+<polygon opacity="0.6" fill="url(#SVGID_1_)" points="0,0 234.609,112.904 0,112.992 "/>
 </svg>

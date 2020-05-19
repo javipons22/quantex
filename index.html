@@ -6,6 +6,8 @@
     <title>Quantex</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -40,15 +42,15 @@
     </header>
     <main>
         <section class="banner">
-            <div class="banner__contenedor">
-                <img class="banner__imagen-fondo d-none d-sm-inline-block" src="img/bannerbackground-min.png" alt="fondo banner">
+            <div class="banner__contenedor d-flex align-items-center">
+                <!-- <img class="banner__imagen-fondo d-none d-sm-inline-block" src="img/bannerbackground-min.png" alt="fondo banner"> -->
                 <div class="banner__gradiente"></div>
                 <img class="banner__decoracion" src="img/banner.svg" alt="decoracion banner">
-                <div id="particles-js" class="d-none d-lg-inline-block"></div>
+                <!-- <div id="particles-js" class="d-none d-lg-inline-block"></div> -->
                 <div class="banner__info-principal container d-flex align-items-center">
                     <div class="row d-flex align-items-center">
                         <div class="banner__texto-contenedor col-12 col-lg-7">
-                            <h1 class="banner__titulo">Donde se reúnen <span>los grandes jugadores"</span></h1>
+                            <h1 class="banner__titulo">Donde se reúnen <span>los grandes jugadores</span></h1>
                             <p class="banner__texto"><strong>Quantex</strong> desarrolla e implementa tecnología financiera de vanguardia para mercados Over-The-Counter.</p>
                             <a href="#" class="banner__cta">Solicitar una demo</a>
                         </div>
@@ -63,12 +65,12 @@
         <section class="seccion-1">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-10 col-md-6 contenedor-imagen-seccion px-0">
-                        <img src="img/triangulo2.svg" alt="triangulo 1" class="triangulo-1 d-none d-lg-inline-block">
+                    <div class="col-10 col-md-5 contenedor-imagen-seccion d-flex align-items-center px-0">
+                        <!-- <img src="img/triangulo2.svg" alt="triangulo 1" class="triangulo-1 d-none d-lg-inline-block"> -->
                         <img class="imagen-seccion" src="img/macbook-min.jpg" alt="macbook">
                         <img src="img/triangulo1.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block">
                     </div>
-                    <div class="col-10 col-md-6 texto-seccion d-lg-flex flex-column justify-content-lg-center">
+                    <div class="col-10 col-md-7 texto-seccion d-lg-flex flex-column justify-content-lg-center">
                         <h6 class="texto-seccion__subtitulo">Bienvenido al mayor pool de liquidez OTC de Latinoamérica.</h6>
                         <h4 class="texto-seccion__titulo">Acceso directo al universo OTC de renta fija.</h4>
                         <p class="texto-seccion__parrafo">Quantex conecta a la comunidad de operadores de renta fija de Latam mediante un <strong>sofisticado y flexible</strong> sistema de liquidez. </p>
@@ -93,25 +95,25 @@
         <section class="seccion-1 seccion-3">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-10 col-md-6 contenedor-imagen-seccion px-0 order-lg-2">
+                    <div class="col-10 col-md-5 contenedor-imagen-seccion px-0 order-lg-2">
                         <img class="imagen-seccion" src="img/planning-min.jpg" alt="macbook">
                         <img src="img/triangulo6.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block">
                     </div>
-                    <div class="col-10 col-md-6 texto-seccion d-lg-flex flex-column justify-content-lg-center order-lg-1">
+                    <div class="col-10 col-md-7 texto-seccion d-lg-flex flex-column justify-content-lg-center order-lg-1">
                         <h6 class="texto-seccion__subtitulo">Soluciones prácticas a problemas específicos.</h6>
                         <h4 class="texto-seccion__titulo">Tus problemas de ejecución  y riesgo resueltos con estilo.</h4>
                         <p class="texto-seccion__parrafo">Nuestras <strong>soluciones</strong> de Analytics integradas con sofisticados algoritmos de ejecución desarrollados por nuestros propios clientes.</p>
-                        <a href="./soluciones" class="texto-seccion__cta">ver soluciones</a>
+                        <a href="./soluciones" class="texto-seccion__cta mt-3">ver soluciones</a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__image-container">
+        <!-- <div class="footer__image-container">
             <div class="footer__gradiente"></div>
             <img class="footer__imagen" src="img/water.jpg" alt="imagen lago">
-        </div>
+        </div> -->
         <div class="footer__contenido">
             <div class="container">
                 <div class="row d-flex justify-content-center justify-content-md-between">
@@ -121,7 +123,7 @@
                     <div class="col-11 col-md-8 col-lg-7 footer__info-container">
                         <div class="row d-flex justify-content-end justify-content-md-between">
                             <div class="col-12 col-md-auto footer__info footer__info--1">
-                                <h6>Login Miembros</h6>
+                                <h6>Links</h6>
                                 <ul class="footer-nav list-unstyled">
                                     <li class="footer-nav__elemento"><a href="#">Login Traders</a></li>
                                     <li class="footer-nav__elemento"><a href="#">Proveedores de liquidez</a></li>
