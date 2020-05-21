@@ -176,4 +176,46 @@
     .soluciones-lista {
         font-size:0.8em;
     }
+
+    // PAGINA TECNOLOGIA
+
+    .seccion-principal-tecnologia {
+        &__contenedor {
+            padding-top:110px;
+            padding-bottom:50px;
+        }
+    }
+
+    .texto-seccion-principal {
+        border:none;
+        font-size:1.4em;
+        &__parrafo {
+            font-size:0.8em;
+        }
+        &__titulo {
+            font-size: 1.5em;
+        }
+    }
+
+    .imagen-seccion-principal {
+        padding-right: 0;
+        &__imagen {
+            padding:20px;
+
+        }
+    }
+
+    .tecnologia {
+        font-size: 1.1em;
+        padding:35px;
+        border:none;
+        &__titulo {
+            font-size:1.6em;
+        }
+    }
+
+    .tecnologias {
+        padding-bottom: 110px;
+    }
+
 }

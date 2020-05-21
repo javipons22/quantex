@@ -401,3 +401,68 @@ body {
         padding-bottom:15px;
     }
 }
+
+// PAGINA TECNOLOGIA
+
+.seccion-principal-tecnologia {
+    padding-top:50px;
+    padding-bottom:50px;
+    &__contenedor {
+        padding-top:50px;
+    }
+}
+
+.imagen-seccion-principal {
+    height:100%;
+    &__imagen {
+        width:100%;
+        padding:25px;
+    }
+}
+.texto-seccion-principal {
+    &__subtitulo {
+        font-size:0.9em;
+        margin-bottom:8px;
+    }
+    &__titulo {
+        font-size:1.5em;
+        font-weight:700;
+    }
+    &__parrafo {
+        padding-top:15px;
+        margin-bottom:0;
+        font-size:0.9em;
+        color:#666;
+        strong {
+            color:black;
+        }
+    }
+}
+.tecnologias {
+    padding-bottom: 50px;
+}
+.tecnologia {
+    color:#666;
+    border: 1px solid $gris;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin:25px 0;
+    &__titulo {
+        font-size:1.35em;
+        color:black;
+        font-weight:bold;
+        margin-bottom:25px;
+        &::before {
+            display:inline-block;
+            content:" ";
+            background: $verde-marca;
+            height:20px;
+            width:13px;
+            margin-right: 5px;
+        }
+    }
+    &__texto {
+        font-size:0.9em;
+        margin-bottom:0;
+    }
+}

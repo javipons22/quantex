@@ -382,6 +382,70 @@ body {
   padding-bottom: 15px;
 }
 
+.seccion-principal-tecnologia {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.seccion-principal-tecnologia__contenedor {
+  padding-top: 50px;
+}
+
+.imagen-seccion-principal {
+  height: 100%;
+}
+.imagen-seccion-principal__imagen {
+  width: 100%;
+  padding: 25px;
+}
+
+.texto-seccion-principal__subtitulo {
+  font-size: 0.9em;
+  margin-bottom: 8px;
+}
+.texto-seccion-principal__titulo {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.texto-seccion-principal__parrafo {
+  padding-top: 15px;
+  margin-bottom: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+.texto-seccion-principal__parrafo strong {
+  color: black;
+}
+
+.tecnologias {
+  padding-bottom: 50px;
+}
+
+.tecnologia {
+  color: #666;
+  border: 1px solid #ccc;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 25px 0;
+}
+.tecnologia__titulo {
+  font-size: 1.35em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.tecnologia__titulo::before {
+  display: inline-block;
+  content: " ";
+  background: #2C89A0;
+  height: 20px;
+  width: 13px;
+  margin-right: 5px;
+}
+.tecnologia__texto {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
   main {
     position: relative;
@@ -453,6 +517,14 @@ body {
   .seccion-1-soluciones .imagen-seccion {
     object-fit: cover;
     height: 100%;
+  }
+
+  .imagen-seccion-principal {
+    height: 100%;
+  }
+  .imagen-seccion-principal__imagen {
+    width: 100%;
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
@@ -636,6 +708,47 @@ body {
 
   .soluciones-lista {
     font-size: 0.8em;
+  }
+
+  .seccion-principal-tecnologia__contenedor {
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+
+  .texto-seccion-principal {
+    border: none;
+    font-size: 1.4em;
+  }
+  .texto-seccion-principal__parrafo {
+    font-size: 0.8em;
+  }
+  .texto-seccion-principal__titulo {
+    font-size: 1.5em;
+  }
+
+  .imagen-seccion-principal {
+    padding-right: 0;
+  }
+  .imagen-seccion-principal__imagen {
+    padding: 20px;
+  }
+
+  .tecnologia {
+    font-size: 1.1em;
+    padding: 35px;
+    border: none;
+  }
+  .tecnologia__titulo {
+    font-size: 1.6em;
+  }
+
+  .tecnologias {
+    padding-bottom: 110px;
+  }
+}
+@media (min-width: 1200px) {
+  .texto-seccion-principal__titulo {
+    font-size: 1.7em;
   }
 }
 .menu-wrapper {
