@@ -380,19 +380,23 @@ body {
     &__elemento {
         display:flex;
         align-items: center;
-        justify-content: center;
         flex-basis: 49%;
         color: #666;
         //text-align: center;
         font-size:0.8em;
         margin-bottom:15px;
-        border:1px solid $gris;
         border-radius: 7px;
-        text-align:center;
+        &::before {
+            display:inline-block;
+            content:" ";
+            background: $verde-marca;
+            height:20px;
+            width:13px;
+            margin-right: 5px;
+        }
     }
     &__elemento--last {
-        flex-basis:100%;
-        width:100%;
+        flex-basis:98%;
     }
 }
 
@@ -459,6 +463,9 @@ body {
             height:20px;
             width:13px;
             margin-right: 5px;
+        }
+        &--chico {
+            font-size:1.2em;
         }
     }
     &__texto {

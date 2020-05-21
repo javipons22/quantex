@@ -50,7 +50,7 @@
     .texto-seccion {
         border:none;
         font-size:1.4em;
-        padding:75px 0 75px 75px;
+        //padding:75px 0 75px 75px;
         &__subtitulo {
             font-size:0.9em;
             padding: 12px 0 12px 0;
@@ -75,6 +75,9 @@
         bottom:0;
         right:0;
         z-index: -1;
+    }
+    .triangulo-soluciones {
+        max-height:100px;
     }
 
     .texto-seccion-2 {
@@ -175,6 +178,13 @@
     }
     .soluciones-lista {
         font-size:0.8em;
+        margin-top:15px;
+        padding:7px 35px 7px 20px;
+        border-bottom: 1px solid $gris;
+        border-top: 1px solid $gris;
+        &__elemento {
+            font-size:0.9em;
+        }
     }
 
     // PAGINA TECNOLOGIA
