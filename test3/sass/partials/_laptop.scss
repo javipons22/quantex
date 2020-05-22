@@ -3,6 +3,11 @@
         &__link {
             border-bottom: none;
         }
+        &__link--selected {
+            border-bottom:1.5px solid $verde-marca;
+            background:none;
+            padding-left:0;
+        }
     }
     .main-header {
         &__logo {
@@ -50,7 +55,7 @@
     .texto-seccion {
         border:none;
         font-size:1.4em;
-        padding:75px 0 75px 75px;
+        //padding:75px 0 75px 75px;
         &__subtitulo {
             font-size:0.9em;
             padding: 12px 0 12px 0;
@@ -75,6 +80,16 @@
         bottom:0;
         right:0;
         z-index: -1;
+    }
+    .triangulo-3 {
+        position:absolute;
+        bottom:0;
+        left:0;
+        z-index: -1;
+        height:160px;
+    }
+    .triangulo-soluciones {
+        max-height:100px;
     }
 
     .texto-seccion-2 {
@@ -109,6 +124,7 @@
         .texto-seccion {
             padding: 0 75px 0 0;
             &__cta {
+                margin-right:25px;
                 display:inline-block;
                 width:40%;
                 font-size:0.7em;

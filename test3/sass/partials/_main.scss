@@ -49,6 +49,10 @@ body {
         border-bottom: 1px solid $gris;
         line-height:100%;
     }
+    &__link--selected {
+        background:#add5db;
+        padding-left:10px;
+    }
     &__link:active,&__link:hover {
         text-decoration:none;
         color:black;
@@ -190,6 +194,8 @@ body {
         }
     }
 }
+
+
 
 // SECCION 2
 
@@ -387,9 +393,11 @@ body {
         //text-align: center;
         font-size:0.8em;
         margin-bottom:15px;
-        background: #68b99b;
+        background: #68B99B;
         border-radius: 7px;
         text-align:center;
+        padding-left: 10px;
+        padding-right:10px;
     }
     &__elemento--last {
         flex-basis:100%;
@@ -460,6 +468,9 @@ body {
             height:20px;
             width:13px;
             margin-right: 5px;
+        }
+        &--chico {
+            font-size:1.2em;
         }
     }
     &__texto {
