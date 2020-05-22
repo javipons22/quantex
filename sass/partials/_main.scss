@@ -49,6 +49,10 @@ body {
         border-bottom: 1px solid $gris;
         line-height:100%;
     }
+    &__link--selected {
+        background:#add5db;
+        padding-left:10px;
+    }
     &__link:active,&__link:hover {
         text-decoration:none;
         color:black;
@@ -190,6 +194,8 @@ body {
         }
     }
 }
+
+
 
 // SECCION 2
 

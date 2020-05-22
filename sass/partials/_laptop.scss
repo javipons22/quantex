@@ -3,6 +3,11 @@
         &__link {
             border-bottom: none;
         }
+        &__link--selected {
+            border-bottom:1.5px solid $verde-marca;
+            background:none;
+            padding-left:0;
+        }
     }
     .main-header {
         &__logo {
@@ -76,6 +81,13 @@
         right:0;
         z-index: -1;
     }
+    .triangulo-3 {
+        position:absolute;
+        bottom:0;
+        left:0;
+        z-index: -1;
+        height:160px;
+    }
     .triangulo-soluciones {
         max-height:100px;
     }
@@ -112,6 +124,7 @@
         .texto-seccion {
             padding: 0 75px 0 0;
             &__cta {
+                margin-right:25px;
                 display:inline-block;
                 width:40%;
                 font-size:0.7em;

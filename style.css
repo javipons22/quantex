@@ -50,6 +50,10 @@ body {
   border-bottom: 1px solid #ccc;
   line-height: 100%;
 }
+.main-nav__link--selected {
+  background: #add5db;
+  padding-left: 10px;
+}
 .main-nav__link:active, .main-nav__link:hover {
   text-decoration: none;
   color: black;
@@ -537,6 +541,11 @@ body {
   .main-nav__link {
     border-bottom: none;
   }
+  .main-nav__link--selected {
+    border-bottom: 1.5px solid #2C89A0;
+    background: none;
+    padding-left: 0;
+  }
 
   .main-header__logo {
     height: 29px;
@@ -610,6 +619,14 @@ body {
     z-index: -1;
   }
 
+  .triangulo-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    height: 160px;
+  }
+
   .triangulo-soluciones {
     max-height: 100px;
   }
@@ -650,6 +667,7 @@ body {
     padding: 0 75px 0 0;
   }
   .seccion-3 .texto-seccion__cta {
+    margin-right: 25px;
     display: inline-block;
     width: 40%;
     font-size: 0.7em;
