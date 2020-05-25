@@ -386,23 +386,22 @@ body {
     &__elemento {
         display:flex;
         align-items: center;
+        justify-content: center;
         flex-basis: 49%;
-        color: #666;
+        color: white;
+        font-weight:600;
         //text-align: center;
         font-size:0.8em;
         margin-bottom:15px;
+        background: #6d68b9;
         border-radius: 7px;
-        &::before {
-            display:inline-block;
-            content:" ";
-            background: $verde-marca;
-            height:20px;
-            width:13px;
-            margin-right: 5px;
-        }
+        text-align:center;
+        padding-left: 10px;
+        padding-right:10px;
     }
     &__elemento--last {
-        flex-basis:98%;
+        flex-basis:100%;
+        width:100%;
     }
 }
 

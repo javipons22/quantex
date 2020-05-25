@@ -368,22 +368,21 @@ body {
 .soluciones-lista__elemento {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-basis: 49%;
-  color: #666;
+  color: white;
+  font-weight: 600;
   font-size: 0.8em;
   margin-bottom: 15px;
+  background: #6d68b9;
   border-radius: 7px;
-}
-.soluciones-lista__elemento::before {
-  display: inline-block;
-  content: " ";
-  background: #2C89A0;
-  height: 20px;
-  width: 13px;
-  margin-right: 5px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .soluciones-lista__elemento--last {
-  flex-basis: 98%;
+  flex-basis: 100%;
+  width: 100%;
 }
 
 .seccion-3-soluciones .texto-seccion {
@@ -538,13 +537,24 @@ body {
   }
 }
 @media (min-width: 992px) {
+  .main-nav {
+    box-sizing: border-box;
+  }
   .main-nav__link {
+    font-size: 1.02em;
     border-bottom: none;
+    box-sizing: border-box;
   }
   .main-nav__link--selected {
-    border-bottom: 1.5px solid #2C89A0;
+    border-bottom: 3px solid #2C89A0;
     background: none;
     padding-left: 0;
+    box-sizing: border-box;
+    padding-bottom: 12px;
+    color: black;
+  }
+  .main-nav__element {
+    box-sizing: border-box;
   }
 
   .main-header__logo {
@@ -735,13 +745,6 @@ body {
 
   .soluciones-lista {
     font-size: 0.8em;
-    margin-top: 15px;
-    padding: 7px 35px 7px 20px;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-  }
-  .soluciones-lista__elemento {
-    font-size: 0.9em;
   }
 
   .seccion-principal-tecnologia__contenedor {
