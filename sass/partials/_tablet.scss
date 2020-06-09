@@ -15,6 +15,7 @@
     .banner {
         height:90vh;
         overflow: hidden;
+        
         &__contenedor {
             height:90vh;
             overflow: hidden;
@@ -33,7 +34,6 @@
             //   }
         }
         &__info-principal {
-            font-size:1.2em;
             .banner__cta { 
                 font-size:0.8em;
             }

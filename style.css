@@ -480,9 +480,6 @@ body {
     height: 90vh;
     overflow: hidden;
   }
-  .banner__info-principal {
-    font-size: 1.2em;
-  }
   .banner__info-principal .banner__cta {
     font-size: 0.8em;
   }
@@ -568,6 +565,9 @@ body {
   .banner__contenedor {
     height: 100vh;
   }
+  .banner__info-principal {
+    font-size: 1.2em;
+  }
   .banner__info-principal .banner__titulo {
     font-size: 2.5em;
     margin-bottom: 55px;
@@ -589,6 +589,14 @@ body {
   .banner__imagen {
     width: 100%;
     max-height: 460px;
+  }
+
+  .banner--empresa {
+    height: 80vh;
+  }
+
+  .banner__contenedor--empresa {
+    height: 80vh;
   }
 
   .imagen-seccion {
@@ -639,6 +647,10 @@ body {
 
   .triangulo-soluciones {
     max-height: 100px;
+  }
+
+  .triangulo-empresa {
+    max-height: 110px;
   }
 
   .texto-seccion-2 {
@@ -741,6 +753,10 @@ body {
   .seccion-3-soluciones {
     padding-top: 60px;
     padding-bottom: 150px;
+  }
+
+  .seccion-1-empresa {
+    padding-bottom: 140px;
   }
 
   .soluciones-lista {
