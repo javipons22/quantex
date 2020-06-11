@@ -256,4 +256,17 @@
         padding-bottom: 110px;
     }
 
+    .formulario {
+        font-size:0.7em;
+        margin-left:75px;
+        border-radius: 15px;
+        padding: 50px 35px;
+        -webkit-box-shadow: 10px 10px 12px -4px rgba(0,0,0,0.24);
+        -moz-box-shadow: 10px 10px 12px -4px rgba(0,0,0,0.24);
+        box-shadow: 10px 10px 12px -4px rgba(0,0,0,0.24);
+        h1{
+            font-size:2.3em;
+        }
+    }
+
 }

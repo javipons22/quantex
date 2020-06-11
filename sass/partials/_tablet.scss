@@ -13,11 +13,11 @@
         z-index:10;
     }
     .banner {
-        height:90vh;
+        //height:90vh;
         overflow: hidden;
         
         &__contenedor {
-            height:90vh;
+            //height:90vh;
             overflow: hidden;
             // &::before {
             //     content: ' ';
@@ -93,7 +93,4 @@
             padding:0;
         }
     }
-
-    
-    
 }
