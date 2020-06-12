@@ -565,6 +565,11 @@ body {
   }
 }
 @media (min-width: 992px) {
+  .page-header {
+    padding-top: 70px;
+    font-size: 1.2em;
+  }
+
   .main-nav {
     box-sizing: border-box;
   }
@@ -734,23 +739,8 @@ body {
     border-radius: 7px;
   }
 
-  .footer {
-    font-size: 1.1em;
-  }
-  .footer__image-container {
-    height: 30px;
-  }
-  .footer__copyright {
-    font-size: 0.7em;
-  }
-
   .seccion-3 {
     padding-bottom: 150px;
-  }
-
-  .page-header {
-    padding-top: 70px;
-    font-size: 1.2em;
   }
 
   .seccion-principal .row {
@@ -841,6 +831,16 @@ body {
   }
   .formulario h1 {
     font-size: 2.3em;
+  }
+
+  .footer {
+    font-size: 1.1em;
+  }
+  .footer__image-container {
+    height: 30px;
+  }
+  .footer__copyright {
+    font-size: 0.7em;
   }
 }
 @media (min-width: 1200px) {
