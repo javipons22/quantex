@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantex | Empresa</title>
+    <title>Quantex | Solicitar Demo</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CDN -->
@@ -29,7 +29,7 @@
                     <ul class="list-unstyled d-lg-flex mb-0 align-items-center">
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link" href="/quantex/soluciones">Soluciones</a></li>
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link" href="/quantex/tecnologia/">Tecnología</a></li>
-                        <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link main-nav__link--selected" href="./">Empresa</a></li>
+                        <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link" href="/quantex/empresa/">Empresa</a></li>
                     </ul>
                 </nav>  
                 <ul class="social-nav col-lg-4 d-lg-flex align-items-center list-unstyled  mb-3 mb-lg-0 justify-content-center justify-content-lg-end">
@@ -42,39 +42,33 @@
     </header>
     <main>
         <div class="fondo d-none d-lg-inline-block"></div>
-        <section class="banner banner--empresa">
-            <div class="banner__contenedor banner__contenedor--empresa d-flex align-items-center">
+        <section class="banner">
+            <div class="banner__contenedor d-flex align-items-center">
                 <img class="banner__imagen-fondo d-none d-sm-inline-block" src="../img/bannerbackground-min.png" alt="fondo banner">
                 <div class="banner__gradiente"></div>
                 <img class="banner__decoracion" src="../img/banner2.svg" alt="decoracion banner">
                 <!-- <div id="particles-js" class="d-none d-lg-inline-block"></div> -->
                 <div class="banner__info-principal container d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <div class="banner__texto-contenedor col-12 col-lg-9">
-                            <h1 class="banner__titulo">Quantex</h1>
-                            <p class="banner__texto">Es una Fintech cuyo principal objetivo es generar liquidez y reducir los costos transaccionales de los diferentes participantes en los mercados OTC.
-                                Creemos que mediante soluciones tecnológicas de vanguardia podemos reducir los riesgos de información asimétrica, aumentar la profundidad de mercado y obtener así un mercado de capitales más eficiente.
-                                </p>
+                        <div class="banner__texto-contenedor col-12 col-lg-6">
+                            <h1 class="banner__titulo">Prueba Quantex</h1>
+                            <p class="banner__texto">Obtén una demostracion de nuestro programa , solo <strong>llena el formulario </strong>y te responderemos</p>
+                            <!-- <p class="banner__texto"><strong>Información:</strong><br><br>info@quantex.com.ar</p> -->
                         </div>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-        <section class="seccion-1 seccion-1-empresa">
-            <div class="container">
-                <div class="row d-flex justify-content-center justify-content-lg-between">
-                    <div class="col-10 col-md-5 contenedor-imagen-seccion d-flex px-0">
-                        <img src="../img/triangulo2.svg" alt="triangulo 1" class="triangulo-1 d-none d-lg-inline-block">
-                        <!-- <img src="../img/triangulo3.svg" alt="triangulo 3" class="triangulo-3 d-none d-lg-inline-block"> -->
-                        <img class="imagen-seccion" src="../img/vision.jpg" alt="macbook">
-                        <!-- <img src="../img/triangulo1.svg" alt="triangulo 2" class="triangulo-2 d-none d-lg-inline-block"> -->
-                    </div>
-                    <div class="col-10 col-md-7 col-lg-6 texto-seccion d-lg-flex flex-column justify-content-lg-center">
-                        <h6 class="texto-seccion__subtitulo">Bienvenido al mayor pool de liquidez OTC de Latinoamérica.</h6>
-                        <h4 class="texto-seccion__titulo">Nuestra Visión</h4>
-                        <p class="texto-seccion__parrafo">Ser los mayores proveedores de servicios de liquidez con una red de participantes interconectados en toda la región de LATAM.</p>
-                        <img src="../img/triangulo6.svg" alt="triangulo 1" class="triangulo-2 triangulo-empresa d-none d-lg-inline-block">
+                        <div class="banner__contenedor-formulario col-lg-6 col-md-7 col-12 d-lg-inline-block">
+                            <form class="formulario">
+                                <h1>Solicitar Demo</h1>
+                                <label for="nombre">Nombre y Apellido:</label>
+                                <input type="text" name="nombre" id="nombre" required><br>
+                                <label for="e-mail">e-mail:</label>
+                                <input type="email" name="e-mail" id="e-mail" required><br>
+                                <label for="telefono">Teléfono:</label>
+                                <input type="text" name="telefono" id="telefono" required><br>
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea id="mensaje" name="mensaje">Quiero probar Quantex!</textarea>
+                                <button type="button">Enviar</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
